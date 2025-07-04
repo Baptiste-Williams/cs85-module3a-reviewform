@@ -107,6 +107,7 @@ if ($ShowForm) {
 
 /*
 Reflection:
+// added to Reflection
 
 1. What does each function do?
 - validateInput() checks if the form field is empty and cleans it up so it’s safe.
@@ -132,7 +133,8 @@ Reflection:
 - But I still saw those mail() warnings.
 
 5. What could be improved?
-- I’d like to make the error messages look better with some color or styling.
+- I’d like to make the error messages look better with some color or styling. I know this 
+was nt part of the assignment, it was just a thought. 
 - I’d also want to figure out how to actually send the email if this was a real site.
 
 6. Why send a copy of the form to the sender?
